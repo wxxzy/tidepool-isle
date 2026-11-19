@@ -1,8 +1,12 @@
 # 《潮汐小岛》Tidepool Isle
 
-小型治愈系钓鱼游戏 · Godot 4 落地切片（方案 A）。
-设计文档见 `../outputs/fishing-brief/钓鱼游戏设计大Brief.html`（**v0.6 已修订 §5.4 角色条款并新增 §5.7 AI 资产管线**）。
-ComfyUI 能力实测与 3D/2D 路线决策见 `../outputs/tidepool-ui/ComfyUI能力评估与路线决策_2026-11-18.html`。
+小型治愈系钓鱼游戏 · Godot 4 完整落地切片。
+
+一个能真跑的小游戏，同时也是"AI 资产怎么进游戏"的全流程样本：
+混元 3D 生成 → GLB 后处理 → Blender 绑骨 → Godot 动画状态机 → 截图与断言验证。
+
+> 设计 Brief 与 ComfyUI 能力评估属于立项阶段的文档，未随仓库分发；
+> 结论都已拆进 `docs/tutorial/` 各篇的"踩坑记录"里。
 
 > 一座半小时能走完的小岛，一根有四拍手感的钓竿，一个会呼吸的昼夜。没有失败，只有「再一杆」。
 
@@ -13,6 +17,7 @@ ComfyUI 能力实测与 3D/2D 路线决策见 `../outputs/tidepool-ui/ComfyUI能
 
 ## 运行
 
+- **克隆**：`git clone https://github.com/wxxzy/tidepool-isle.git`
 - **编辑器打开**：Godot 4.7+ → Import → 选择本目录（含 `project.godot`）→ F5 运行
 - **命令行直跑**：`godot --path <本目录>`
 - **跑单元测试**：`godot --headless --path <本目录> --script tests/run_tests.gd`（当前 129/129 通过）
