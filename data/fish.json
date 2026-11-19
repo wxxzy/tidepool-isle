@@ -1,0 +1,441 @@
+{
+  "hook_window": 0.4,
+  "bite_miss_escape_chance": 0.35,
+  "struggle_types_note": "twitch=点跳型 burst=冲刺型 heavy=重拖型 suction=吸附型 vanish=失联型 none=几乎不挣",
+  "fish": [
+    {
+      "id": "sardine",
+      "name": "沙丁鱼",
+      "phases": [
+        "dawn",
+        "morning",
+        "noon",
+        "golden",
+        "dusk",
+        "night"
+      ],
+      "spots": [
+        "dock",
+        "shallow"
+      ],
+      "baits": {
+        "dough": 1.0,
+        "worm": 1.3,
+        "sandworm": 1.1,
+        "krill": 0.4,
+        "lure": 0.6
+      },
+      "rarity": 1,
+      "size_cm": [
+        15,
+        25
+      ],
+      "struggle": {
+        "type": "twitch",
+        "surge": 10.0,
+        "interval": [
+          0.7,
+          1.4
+        ],
+        "stamina": 35.0
+      },
+      "icon": "res://assets/fish/sardine.png"
+    },
+    {
+      "id": "butterfly",
+      "name": "蝴蝶鱼",
+      "phases": [
+        "morning",
+        "golden"
+      ],
+      "spots": [
+        "shallow"
+      ],
+      "baits": {
+        "dough": 1.0,
+        "worm": 1.2
+      },
+      "rarity": 1,
+      "size_cm": [
+        10,
+        15
+      ],
+      "struggle": {
+        "type": "none",
+        "surge": 0.0,
+        "interval": [
+          1.0,
+          1.0
+        ],
+        "stamina": 15.0
+      },
+      "icon": "res://assets/fish/butterfly.png"
+    },
+    {
+      "id": "seabream",
+      "name": "真鲷",
+      "phases": [
+        "morning",
+        "noon",
+        "golden"
+      ],
+      "spots": [
+        "shallow",
+        "deep"
+      ],
+      "baits": {
+        "dough": 0.4,
+        "worm": 1.0,
+        "sandworm": 1.4,
+        "lure": 0.8
+      },
+      "rarity": 2,
+      "size_cm": [
+        30,
+        60
+      ],
+      "struggle": {
+        "type": "twitch",
+        "surge": 18.0,
+        "interval": [
+          0.5,
+          1.0
+        ],
+        "stamina": 55.0
+      },
+      "icon": "res://assets/fish/seabream.png"
+    },
+    {
+      "id": "puffer",
+      "name": "河豚",
+      "phases": [
+        "night"
+      ],
+      "spots": [
+        "dock"
+      ],
+      "baits": {
+        "dough": 0.4,
+        "sandworm": 1.2,
+        "krill": 0.8
+      },
+      "rarity": 2,
+      "size_cm": [
+        20,
+        40
+      ],
+      "struggle": {
+        "type": "heavy",
+        "surge": 9.0,
+        "interval": [
+          1.2,
+          2.0
+        ],
+        "stamina": 45.0
+      },
+      "icon": "res://assets/fish/puffer.png"
+    },
+    {
+      "id": "grouper",
+      "name": "石斑鱼",
+      "phases": [
+        "dusk",
+        "night"
+      ],
+      "spots": [
+        "shallow",
+        "deep"
+      ],
+      "baits": {
+        "sandworm": 1.5,
+        "worm": 0.7,
+        "krill": 0.6
+      },
+      "rarity": 2,
+      "size_cm": [
+        40,
+        90
+      ],
+      "struggle": {
+        "type": "heavy",
+        "surge": 22.0,
+        "interval": [
+          1.5,
+          2.5
+        ],
+        "stamina": 80.0
+      },
+      "icon": "res://assets/fish/grouper.png"
+    },
+    {
+      "id": "squid",
+      "name": "鱿鱼",
+      "phases": [
+        "night"
+      ],
+      "spots": [
+        "deep"
+      ],
+      "baits": {
+        "krill": 1.6,
+        "lure": 1.0
+      },
+      "rarity": 2,
+      "size_cm": [
+        25,
+        45
+      ],
+      "struggle": {
+        "type": "suction",
+        "surge": 14.0,
+        "interval": [
+          2.0,
+          3.0
+        ],
+        "stamina": 70.0
+      },
+      "icon": "res://assets/fish/squid.png"
+    },
+    {
+      "id": "moray",
+      "name": "海鳗",
+      "phases": [
+        "night"
+      ],
+      "spots": [
+        "deep"
+      ],
+      "baits": {
+        "krill": 1.8,
+        "sandworm": 0.9
+      },
+      "rarity": 3,
+      "size_cm": [
+        60,
+        120
+      ],
+      "struggle": {
+        "type": "vanish",
+        "surge": 25.0,
+        "interval": [
+          3.0,
+          5.0
+        ],
+        "vanish_time": [
+          2.0,
+          4.0
+        ],
+        "stamina": 90.0
+      },
+      "icon": "res://assets/fish/moray.png"
+    },
+    {
+      "id": "bluefin",
+      "name": "蓝鳍小金枪",
+      "phases": [
+        "dawn",
+        "golden"
+      ],
+      "spots": [
+        "deep"
+      ],
+      "baits": {
+        "lure": 2.0,
+        "krill": 1.0,
+        "sandworm": 0.6
+      },
+      "rarity": 3,
+      "size_cm": [
+        80,
+        150
+      ],
+      "struggle": {
+        "type": "burst",
+        "surge": 30.0,
+        "surge_time": 1.5,
+        "interval": [
+          2.5,
+          4.0
+        ],
+        "stamina": 120.0
+      },
+      "icon": "res://assets/fish/bluefin.png"
+    },
+    {
+      "id": "moonfish",
+      "name": "月光鱼",
+      "phases": [
+        "night"
+      ],
+      "spots": [
+        "deep"
+      ],
+      "baits": {
+        "krill": 1.7,
+        "lure": 1.2
+      },
+      "rarity": 3,
+      "size_cm": [
+        20,
+        30
+      ],
+      "struggle": {
+        "type": "suction",
+        "surge": 12.0,
+        "interval": [
+          1.6,
+          2.6
+        ],
+        "stamina": 60.0
+      },
+      "icon": "res://assets/fish/moonfish.png"
+    },
+    {
+      "id": "sailfish",
+      "name": "旗鱼",
+      "phases": [
+        "dusk"
+      ],
+      "spots": [
+        "deep"
+      ],
+      "baits": {
+        "lure": 2.2,
+        "krill": 0.5
+      },
+      "rarity": 5,
+      "size_cm": [
+        150,
+        210
+      ],
+      "struggle": {
+        "type": "burst",
+        "surge": 38.0,
+        "surge_time": 2.2,
+        "interval": [
+          3.0,
+          5.0
+        ],
+        "stamina": 150.0
+      },
+      "icon": "res://assets/fish/sailfish.png"
+    },
+    {
+      "id": "shark",
+      "name": "鲨鱼",
+      "phases": [
+        "night"
+      ],
+      "spots": [
+        "deep"
+      ],
+      "baits": {
+        "dough": 0.1,
+        "worm": 0.2,
+        "sandworm": 0.3,
+        "krill": 0.3,
+        "lure": 0.3
+      },
+      "rarity": 0,
+      "size_cm": [
+        150,
+        250
+      ],
+      "force_release": true,
+      "struggle": {
+        "type": "burst",
+        "surge": 45.0,
+        "surge_time": 2.0,
+        "interval": [
+          2.0,
+          3.5
+        ],
+        "stamina": 180.0
+      },
+      "icon": "res://assets/fish/shark.png"
+    },
+    {
+      "id": "jellyfish",
+      "name": "水母",
+      "phases": [
+        "dawn",
+        "morning",
+        "noon",
+        "golden",
+        "dusk",
+        "night"
+      ],
+      "spots": [
+        "dock",
+        "shallow",
+        "deep"
+      ],
+      "baits": {
+        "dough": 0.4,
+        "worm": 0.4,
+        "sandworm": 0.4,
+        "krill": 0.5,
+        "lure": 0.4
+      },
+      "rarity": 0,
+      "size_cm": [
+        10,
+        30
+      ],
+      "auto_release": true,
+      "struggle": {
+        "type": "suction",
+        "surge": 6.0,
+        "interval": [
+          2.5,
+          3.5
+        ],
+        "stamina": 30.0
+      },
+      "icon": "res://assets/fish/jellyfish.png"
+    },
+    {
+      "id": "trash",
+      "name": "海底杂物",
+      "phases": [
+        "dawn",
+        "morning",
+        "noon",
+        "golden",
+        "dusk",
+        "night"
+      ],
+      "spots": [
+        "dock",
+        "shallow",
+        "deep"
+      ],
+      "baits": {
+        "dough": 0.5,
+        "worm": 0.5,
+        "sandworm": 0.5,
+        "krill": 0.5,
+        "lure": 0.5
+      },
+      "rarity": 0,
+      "junk": true,
+      "junk_names": [
+        "一只旧拖鞋",
+        "一只海星",
+        "一个玻璃瓶",
+        "半块浮木"
+      ],
+      "size_cm": null,
+      "struggle": {
+        "type": "none",
+        "surge": 0.0,
+        "interval": [
+          1.0,
+          1.0
+        ],
+        "stamina": 20.0
+      },
+      "icon": "res://assets/fish/trash.png"
+    }
+  ]
+}

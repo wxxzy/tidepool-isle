@@ -1,0 +1,45 @@
+{
+  "goals": [
+    {
+      "id": "three_species",
+      "title": "钓到 3 种不同的鱼",
+      "type": "species_count",
+      "target": 3,
+      "reward": "今日小目标达成 · 3 种鱼"
+    },
+    {
+      "id": "golden_hour",
+      "title": "在黄金时刻钓到一条鱼",
+      "type": "phase_catch",
+      "phase": "golden",
+      "target": 1,
+      "reward": "黄金时刻的馈赠"
+    },
+    {
+      "id": "big_fish",
+      "title": "钓到一条 60cm 以上的鱼",
+      "type": "size",
+      "target": 60,
+      "reward": "大物之手"
+    }
+  ],
+  "feedback": {
+    "snap": "啪——线断了。它还在下面。",
+    "missed": "慢了半拍……它溜走了。",
+    "early": "太急了，它被吓跑了。",
+    "give_up": "收杆。下次再来。",
+    "release": "它回到了海里。",
+    "keep": "已收入鱼篓。",
+    "jellyfish": "水母：请勿垂钓 · 已放生",
+    "record": "新纪录！已记入鱼谱。",
+    "goal_done": "今日小目标达成"
+  },
+  "phase_hints": {
+    "dawn": "晨雾未散 · 近岸小鱼活跃",
+    "morning": "近岸小鱼活跃",
+    "noon": "深水区有大家伙",
+    "golden": "全鱼种活跃 · 拍照时刻",
+    "dusk": "旗鱼的窗口",
+    "night": "夜行鱼 · 发光藻海面"
+  }
+}

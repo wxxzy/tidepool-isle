@@ -1,0 +1,13 @@
+{
+  "_note": "剩余 7 条鱼：账户积分不足（ResourceInsufficient）未生成。每条 30 积分，补齐共需 210 积分。",
+  "_usage": "充值后：python hy3d_gen.py run spec_remaining.json",
+  "_post": "下载后逐条：python glb_post.py hy3d_out/glb/fish_<id>.glb hy3d_out/glb/fish_<id>_rt.glb --tex 512 --center  然后拷进 tidepool-isle/assets/models/fish/",
+
+  "fish_squid":     { "model": "3.0", "face_count": 8000, "pbr": false, "gen_type": "Normal", "main": "fish_squid.png" },
+  "fish_moray":     { "model": "3.0", "face_count": 7000, "pbr": false, "gen_type": "Normal", "main": "fish_moray.png" },
+  "fish_bluefin":   { "model": "3.0", "face_count": 8000, "pbr": false, "gen_type": "Normal", "main": "fish_bluefin.png" },
+  "fish_moonfish":  { "model": "3.0", "face_count": 7000, "pbr": false, "gen_type": "Normal", "main": "fish_moonfish.png" },
+  "fish_sailfish":  { "model": "3.0", "face_count": 8000, "pbr": false, "gen_type": "Normal", "main": "fish_sailfish.png" },
+  "fish_shark":     { "model": "3.0", "face_count": 8000, "pbr": false, "gen_type": "Normal", "main": "fish_shark.png" },
+  "fish_jellyfish": { "model": "3.0", "face_count": 8000, "pbr": false, "gen_type": "Normal", "main": "fish_jellyfish.png" }
+}

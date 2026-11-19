@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "model": "3.1",
+    "face_count": 15000,
+    "pbr": true,
+    "gen_type": "Normal",
+    "main": "char_front.png",
+    "views": { "left": "char_side.png", "back": "char_back.png" }
+  },
+  "fish_sardine":   { "model": "3.0", "face_count": 6000,  "pbr": false, "gen_type": "Normal", "main": "fish_sardine.png" },
+  "fish_butterfly": { "model": "3.0", "face_count": 6000,  "pbr": false, "gen_type": "Normal", "main": "fish_butterfly.png" },
+  "fish_seabream":  { "model": "3.0", "face_count": 6000,  "pbr": false, "gen_type": "Normal", "main": "fish_seabream.png" },
+  "fish_puffer":    { "model": "3.0", "face_count": 6000,  "pbr": false, "gen_type": "Normal", "main": "fish_puffer.png" },
+  "fish_grouper":   { "model": "3.0", "face_count": 7000,  "pbr": false, "gen_type": "Normal", "main": "fish_grouper.png" },
+  "fish_squid":     { "model": "3.0", "face_count": 8000,  "pbr": false, "gen_type": "Normal", "main": "fish_squid.png" },
+  "fish_moray":     { "model": "3.0", "face_count": 7000,  "pbr": false, "gen_type": "Normal", "main": "fish_moray.png" },
+  "fish_bluefin":   { "model": "3.0", "face_count": 8000,  "pbr": false, "gen_type": "Normal", "main": "fish_bluefin.png" },
+  "fish_moonfish":  { "model": "3.0", "face_count": 7000,  "pbr": false, "gen_type": "Normal", "main": "fish_moonfish.png" },
+  "fish_sailfish":  { "model": "3.0", "face_count": 8000,  "pbr": false, "gen_type": "Normal", "main": "fish_sailfish.png" },
+  "fish_shark":     { "model": "3.0", "face_count": 8000,  "pbr": false, "gen_type": "Normal", "main": "fish_shark.png" },
+  "fish_jellyfish": { "model": "3.0", "face_count": 8000,  "pbr": false, "gen_type": "Normal", "main": "fish_jellyfish.png" }
+}

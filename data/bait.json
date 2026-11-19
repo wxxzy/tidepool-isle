@@ -1,0 +1,10 @@
+{
+  "fallback_weight": 0.15,
+  "baits": [
+    { "id": "dough", "name": "面团", "count": -1, "desc": "饵料盒每日补充，无限使用" },
+    { "id": "worm", "name": "蚯蚓", "count": 5, "desc": "椰林沙地挖掘，万能略提升" },
+    { "id": "sandworm", "name": "沙蚕", "count": 3, "desc": "礁石缝采集，鲷/石斑/鳗最爱" },
+    { "id": "krill", "name": "磷虾", "count": 2, "desc": "夜光藻海面夜捞，夜行鱼专属" },
+    { "id": "lure", "name": "亮片拟饵", "count": 1, "desc": "主动收线玩法用饵（M2），当前按高权重饵处理" }
+  ]
+}

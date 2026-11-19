@@ -1,0 +1,21 @@
+# Godot 导入缓存（125MB，绝对不要提交）
+.godot/
+
+# 导出产物
+build/
+*.exe
+*.pck
+*.pdb
+
+# 截图探针临时图
+glb_probe_tmp_*.png
+glb_probe_tmp_*.import
+
+# 资产流水线中间产物
+tools/asset_pipeline/hy3d_out/
+tools/asset_pipeline/rig_out/
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
+desktop.ini
